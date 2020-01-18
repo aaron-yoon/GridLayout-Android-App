@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="rules_void_hello1_int_hour">Rules void hello1(int hour)</string>
+    <string name="properties">properties</string>
+    <string name="category">category</string>
+    <string name="day_hour_classification">Day Hour Classification</string>
+    <string name="day_and_time">Day and Time</string>
+    <string name="r20">R20</string>
+    <string name="_21">21</string>
+    <string name="_22">22</string>
+    <string name="r40">R40</string>
+    <string name="_18">18</string>
+    <string name="a1">A1</string>
+    <string name="_11">11</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="_17">17</string>
+    <string name="rule">Rule</string>
+    <string name="r10">R10</string>
+    <string name="_12">12</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="_0">0</string>
+    <string name="greeting">Greeting</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="string_greeting">String greeting</string>
+    <string name="int_min">int min</string>
+    <string name="system_out_println_greeting_world">System.out.println(greeting + ", World!")</string>
+    <string name="min_hour_hour_max"><![CDATA[min <= hour && hour <= max]]></string>
+    <string name="r30">R30</string>
+    <string name="c1">C1</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="name">name</string>
+    <string name="int_max">int max</string>
+    <string name="good_night">Good Night</string>
+    <string name="_23">23</string>
+</resources>

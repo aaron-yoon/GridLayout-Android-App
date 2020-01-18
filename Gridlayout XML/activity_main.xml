@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:columnCount="7"
+            app:rowCount="13"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/line1"
+                android:text="1"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="0"/>
+            <TextView
+                android:id="@+id/line2"
+                android:text="2"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="2"/>
+            <TextView
+                android:id="@+id/line3"
+                android:text="3"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="3" />
+            <TextView
+                android:id="@+id/line4"
+                android:text="4"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="4"/>
+            <TextView
+                android:id="@+id/line5"
+                android:text="5"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="5"/>
+            <TextView
+                android:id="@+id/line6"
+                android:text="6"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="6"/>
+            <TextView
+                android:id="@+id/line7"
+                android:text="7"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="7"/>
+            <TextView
+                android:id="@+id/line8"
+                android:text="8"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="8"/>
+            <TextView
+                android:id="@+id/line9"
+                android:text="9"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="9"/>
+            <TextView
+                android:id="@+id/line10"
+                android:text="10"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="10"/>
+            <TextView
+                android:id="@+id/line11"
+                android:text="11"
+                android:gravity="center"
+                android:background="#A4ABB1"
+                app:layout_gravity="fill"
+                app:layout_column="0"
+                app:layout_row="11"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:rowCount="0"
+                android:text="@string/rules_void_hello1_int_hour"
+                android:textColor="#FFFF"
+                app:layout_column="1"
+                app:layout_columnSpan="5"
+                app:layout_gravity="fill"
+                app:layout_row="0"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="@string/properties"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="1"
+                app:layout_rowSpan="3"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:gravity="center"
+                android:text="@string/name"
+                app:layout_column="2"
+                app:layout_columnSpan="2"
+                app:layout_gravity="fill"
+                app:layout_row="2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:columnCount="3"
+                android:rowCount="1"
+                android:text="@string/category"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_columnSpan="2"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:text="@string/day_hour_classification"
+                app:layout_column="4"
+                app:layout_gravity="fill"
+                app:layout_row="2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:text="@string/day_and_time"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:text="Rule"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                android:textStyle="bold"
+                android:background="#00FFFF"
+                app:layout_column="1"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:text="@string/c1"
+                android:textStyle="bold"
+                android:background="#00FFFF"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_columnSpan="2"
+                app:layout_row="4"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:text="@string/a1"
+                android:textStyle="bold"
+                android:background="#00FFFF"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/textViewextra"
+                android:background="#00FFFF"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/textViewextra1"
+                android:background="#00FFFF"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="6" />
+            <TextView
+                android:id="@+id/textViewextra2"
+                android:background="#00FFFF"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:text="@string/min_hour_hour_max"
+                android:background="#00FFFF"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_columnSpan="3"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:text="@string/system_out_println_greeting_world"
+                android:background="#00FFFF"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:text="@string/int_min"
+                android:background="#00FFFF"
+                android:gravity="center"
+                android:layout_width="95dp"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:background="#00FFFF"
+                android:text="@string/int_max"
+                android:gravity="center"
+                android:layout_width="95dp"
+                app:layout_gravity="fill"
+                app:layout_column="3"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:text="@string/string_greeting"
+                android:background="#00FFFF"
+                android:gravity="center"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:text="Rule"
+                android:textStyle="bold"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:text="@string/from"
+                android:textStyle="bold"
+                android:background="#FFD700"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:background="#FFD700"
+                android:text="@string/to"
+                android:textStyle="bold"
+                app:layout_gravity="fill"
+                app:layout_column="3"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:text="@string/greeting"
+                android:textStyle="bold"
+                android:background="#FFA500"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="7" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:text="@string/r10"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="8" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:text="@string/_0"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="8" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:background="#FFD700"
+                android:text="@string/_11"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="3"
+                app:layout_row="8" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:text="@string/good_morning"
+                android:background="#FFA500"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="8" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:text="@string/r20"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="9" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:text="@string/_12"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="9" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:text="@string/_17"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="3"
+                app:layout_row="9" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:text="@string/good_afternoon"
+                android:background="#FFA500"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="9" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:text="@string/r30"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="10" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:text="@string/_18"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="10" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:text="@string/_21"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="3"
+                app:layout_row="10" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:text="@string/good_evening"
+                android:background="#FFA500"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="10" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:text="@string/r40"
+                app:layout_gravity="fill"
+                app:layout_column="1"
+                app:layout_row="11" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:text="@string/_22"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="2"
+                app:layout_row="11" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:text="@string/_23"
+                android:background="#FFD700"
+                android:gravity="end"
+                app:layout_gravity="fill"
+                app:layout_column="3"
+                app:layout_row="11" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:text="@string/good_night"
+                android:background="#FFA500"
+                app:layout_gravity="fill"
+                app:layout_column="4"
+                app:layout_row="11" />
+
+        </androidx.gridlayout.widget.GridLayout>
+</HorizontalScrollView>
